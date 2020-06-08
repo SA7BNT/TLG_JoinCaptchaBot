@@ -12,7 +12,7 @@ ARG BOT_GROUP="nogroup"
 ARG BOT_HOME_DIR="/srv"
 ARG REPO_NAME="TLG_JoinCaptchaBot"
 ARG APP_DIR="${BOT_HOME_DIR}/app"
-ARG GITHUB_URL="https://github.com/J-Rios/${REPO_NAME}"
+ARG GITHUB_URL="https://github.com/SA7BNT/${REPO_NAME}"
 
 # This represents an invalid token and should always exist in
 # the "stock" constants.py file.
@@ -25,7 +25,7 @@ ARG BOT_TOKEN
 
 # Default language (override when building -- must be all CAPS.)
 # check Makefile for a list of supported languages
-ARG BOT_LANG="EN"
+ARG BOT_LANG="DE"
 
 # Export ARGs as ENV vars so they can be shared among steps
 ENV BOT_PROJECT="${BOT_PROJECT}" \
